@@ -1,0 +1,229 @@
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+@media (max-width: 480px) {
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+  section {
+    font-size: 14px;
+  }
+  #bodyText h3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+  }
+   #montana {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    font-size: 12px;
+  }
+  #bodyText h3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box; 
+  }
+  #montana {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+}
+main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1000px;
+  width: 100%;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  padding-top: 12px;
+  background: rgb(108,207,203);
+  background: linear-gradient(90deg, 
+  rgba(108,207,203,1) 0%, 
+  rgba(162,227,231,1) 19%, 
+  rgba(247,247,245,1) 78%,
+  rgba(196,196,195,1) 100%);
+}
+main::before {
+  content: "";
+  position: flex;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 10px; /* Adjust the height as needed */
+  background-color: inherit; /* Match the background color of the boundary */
+  filter: blur(10px); /* Adjust the blur value as needed */
+}
+#sectionOne {
+  padding-bottom: 35px;
+}
+#sectionOne #headers {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 55px;
+}
+
+div #logoName {
+  display: flex;
+  justify-content: flex-start;
+  margin: 2px;
+  padding-bottom: 42px;
+  padding-left: 12px;
+  font-size: 32px;
+  color: #454545;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#scroll-container {
+  height: 1000px;
+  width: 100%;
+  overflow: auto;
+  white-space: normal;
+}
+body {
+display: flex;
+justify-content: center;
+margin: 0;
+font-size: 16px;
+max-width: 100vw;
+overflow-x: hidden;
+background-color: #F9F9F9;
+}
+
+#sectionTwo {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+#bodyTitle {
+  font-size: 48px;
+  color: #454545;
+  background: linear-gradient(90deg, 
+  rgba(108,207,203,1) 100%, 
+  rgba(162,227,231,1) 78%,
+  rgba(247,247,245,1) 19%,
+  rgba(196,196,195,1) 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body #bodyText {
+  display: block;
+  justify-content: center;
+  font-size: 28px;
+  color: #454545;
+  justify-content: center;
+  align-items: center;
+  overflow-y: visible;
+  overflow-x: visible;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#borders {
+  display: grid;
+  position: relative;
+  place-items: center;
+  height: 100%;
+  width: 700px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #F9F9F9;
+}
+#sectionFour {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  overflow-y: visible;
+  overflow-x: visible;
+  line-height: 3;
+  padding-bottom: 200px;
+}
+.borders2 {
+  display: fixed;
+  position: relative;
+  box-sizing: border-box;
+}
+.sectionFour {
+  color: #454545;
+  display: flex;
+  justify-content: center;
+  line-height: 1;
+  font-size: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#stateList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 2;
+}
+.cali {
+  margin-top: -12px;
+  margin-left: -3px;
+  list-style-type: none;
+  font-size: 18px;
+}
+footer {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  background-color: #91dce0;
+}
